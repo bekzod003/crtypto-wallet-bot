@@ -21,7 +21,7 @@ type wallet map[string]float64
 
 var db = map[int]wallet{}
 
-const TOKEN = "YOUR_TOKEN"
+const TOKEN = "YOUR_AWESOME_TOKEN"
 
 func main() {
 	bot, err := tgbotapi.NewBotAPI(TOKEN)
